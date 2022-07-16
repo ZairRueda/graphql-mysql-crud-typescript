@@ -16,7 +16,7 @@ export const CREATE_USER = {
   type: UserType,
   args: {
     nombre: { type: new GraphQLNonNull(GraphQLString) },
-    segundoNombre: { type:GraphQLString},
+    segundoNombre: { type: new GraphQLNonNull(GraphQLString)},
     apellidoPaterno: { type: new GraphQLNonNull(GraphQLString) },
     apellidoMaterno: { type: new GraphQLNonNull(GraphQLString) },
     fechaDeNacimiento: { type: new GraphQLNonNull(GraphQLString) },
