@@ -11,6 +11,7 @@ import {
 import { users_test_andres_zair_jimenez_rueda } from "../../Entities/Users";
 import { UserType } from "../TypeDefs/User";
 
+// Esquema de creacion de un usuario
 export const CREATE_USER = {
   type: UserType,
   args: {

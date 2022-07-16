@@ -1,6 +1,6 @@
 // Lectura de variables de entorno con dotenv config
 import { config } from "dotenv";
-
+// Esto es necesesarion para acceder a las variables de entorno
 config();
 
 export const PORT = process.env.PORT || 3000;

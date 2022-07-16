@@ -1,5 +1,6 @@
 import { GraphQLNonNull, GraphQLString } from "graphql";
 
+// Esquema para adquirir informacion de los usuarios
 export const GREETING = {
   type: GraphQLString,
   args: {

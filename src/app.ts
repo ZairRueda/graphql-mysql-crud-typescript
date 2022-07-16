@@ -3,6 +3,7 @@ import { graphqlHTTP } from "express-graphql";
 import cors from "cors";
 import { schema } from "./schema";
 
+// Despliege de servidor de express
 const app = express();
 
 app.use(cors());

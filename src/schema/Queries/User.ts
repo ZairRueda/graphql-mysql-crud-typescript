@@ -9,6 +9,7 @@ import {
 import { users_test_andres_zair_jimenez_rueda } from "../../Entities/Users";
 import { UserType } from "../TypeDefs/User";
 
+// Esquema para adquirir la misma informacion de todos los usuarios
 export const GET_ALL_USERS = {
   type: new GraphQLList(UserType),
   resolve() {
@@ -16,6 +17,7 @@ export const GET_ALL_USERS = {
   },
 };
 
+// Esquema para adquirir un usuario o informacion de este
 export const GET_USER = {
   type: UserType,
   args: {

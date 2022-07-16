@@ -23,7 +23,7 @@ const Mutation = new GraphQLObjectType({
   },
 });
 
-// Esquema de peticiones
+// integracion de esquema de peticiones
 export const schema = new GraphQLSchema({
   query: RootQuery,
   mutation: Mutation,
