@@ -7,10 +7,8 @@ const main = async () => {
   try {
     await AppDataSource.initialize();
     console.log('Database initialized')
-    app.listen();
-    console.log(require('https'));
-    
-    // console.log(`Server on http://localhost:${PORT}/graphql`);
+    app.listen(PORT);
+    console.log(`Server on http://localhost:${PORT}/graphql`);
   } catch (error) {
     console.error(error);
   }
