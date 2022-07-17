@@ -6,7 +6,7 @@ import { schema } from "./schema";
 // Despliege de servidor de express
 const app = express();
 
-// app.use(cors());
+app.use(cors());
 app.use(express.json());
 
 app.use(
