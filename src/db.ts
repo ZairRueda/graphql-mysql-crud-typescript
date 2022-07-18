@@ -13,5 +13,5 @@ export const AppDataSource = new DataSource({
   logging: true,
   synchronize: true,
   entities: [users_test_andres_zair_jimenez_rueda],
-  ssl: false,
+  ssl: true,
 });
